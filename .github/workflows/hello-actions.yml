@@ -1,0 +1,8 @@
+name: learn-actions
+on: [push]
+jobs:
+  hello-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses:  actions/checkout@v2
+      - run:  echo "Vasil first action @ github"
