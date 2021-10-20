@@ -4,4 +4,4 @@ jobs:
   build-and-deploy:
   runs-on: ubuntu-latest
   steps:
-  - run
+  - run: echo "thi has been triggered ${{ github.event_name }}
